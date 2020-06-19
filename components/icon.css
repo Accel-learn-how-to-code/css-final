@@ -1,0 +1,11 @@
+.icon-holder {
+    display: flex;
+    justify-content: center;
+    width: 44px;
+    font-size: 33px;
+    color: #007ced;
+}
+
+.fact-icon {
+    width: 100%;
+}

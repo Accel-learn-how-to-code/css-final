@@ -1,0 +1,41 @@
+.facts-container {
+    display: flex;
+}
+
+.facts-holder {
+    flex-grow: 1;
+    padding: 0 15px;
+}
+
+.fact {
+    padding: 25px 10px 15px;
+    margin: 0 0 15px;
+    text-align: center;
+    background-color: #333;
+    border: 2px solid #444;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.fact:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+
+.fact h4 {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.fact span {
+    color: #d5d5d5;
+    font-size: 48px;
+    line-height: 52px;
+    display: block;
+    margin: 15px 0 10px;
+}
+
+.type {
+    font-size: 14px;
+}

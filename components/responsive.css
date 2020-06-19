@@ -1,0 +1,103 @@
+@media screen and (max-width: 960px) {
+    .menus {
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        right: 0;
+        height: 80vh;
+        top: 12vh;
+        transform: translateX(100%);
+        transition-duration: 0.5s;
+        -webkit-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+        background-color: #222222;
+        border-radius: 8px;
+        border: 2px solid #444;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    body {
+        overflow-x: hidden;
+        background-color: #222222 !important;
+        background-image: none !important;
+    }
+
+    .container {
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+
+    .col-do-container {
+        display: block;
+    }
+
+    .home-text {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .home-text:nth-child(-n + 3) {
+        text-align: center;
+    }
+
+    .home-content {
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    .home-button {
+        text-align: center;
+    }
+
+    .home-avatar-holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .facts-container {
+        display: block !important;
+    }
+
+    .price-container {
+        display: block !important;
+    }
+
+    .platium {
+        transform: translateY(0) !important;
+    }
+
+    .testimonials-containers {
+        display: block !important;
+    }
+
+    .client-container {
+        grid-template-columns: 2fr 2fr 2fr !important;
+        grid-template-columns: 2fr 2fr !important;
+    }
+
+    .footer {
+        text-align: center;
+        margin: 60px -45px -77px !important;
+        display: block !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+
+    .page {
+        justify-content: center;
+    }
+
+    .copyright {
+        margin: 0 30px 0 0 !important;
+    }
+}

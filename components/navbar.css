@@ -1,0 +1,88 @@
+.narbar {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 8px 0 0;
+    width: 44px;
+    height: 44px;
+    background-color: #007ced;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+}
+
+.logo-text {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.logo-text span {
+    font-weight: 400;
+}
+
+.menus {
+    display: flex;
+    list-style: none;
+    color: #fff;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menus li {
+    margin-right: 40px;
+}
+
+.has-submenus {
+    position: relative;
+}
+
+.submenus {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    top: 100%;
+    width: 6em;
+    display: none;
+}
+
+.has-submenus:hover .submenus {
+    display: block;
+}
+
+.submenus li {
+    margin: 0;
+    padding: 0;
+}
+.burger{
+    display: none;
+}
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: #aaaaaa;
+    margin: 5px;
+}
+
+.active{
+    transform: translateX(0) !important;
+    opacity: 1;
+}

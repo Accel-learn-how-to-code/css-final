@@ -1,0 +1,28 @@
+.client-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.client-holder {
+    padding: 10px 15px 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: #222222;
+    opacity: 0.5;
+}
+
+.client-holder img {
+    display: block;
+    width: 100%;
+    max-width: 100px;
+}
+
+.overlay:hover {
+    transition-duration: 0.5s;
+    opacity: 1;
+}

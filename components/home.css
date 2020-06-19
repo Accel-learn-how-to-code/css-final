@@ -1,0 +1,47 @@
+.home-container {
+    padding: 0 15px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    margin: 5% 10%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.home-text {
+    max-width: 58.333333%;
+    padding: 0 15px 0 40px;
+    color: #ffffff;
+}
+
+.home-text h4 {
+    font-size: 400;
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.home-text h1 {
+    margin: 0 0 20px;
+    font-size: 48px;
+}
+
+.home-text p {
+    margin: 0 0 10px;
+    color: #d5d5d5;
+}
+
+.home-avatar {
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    border-radius: 100%;
+    padding: 0;
+    object-fit: cover;
+    height: 336px;
+    width: 336px;
+    border: 20px solid #444444;
+}

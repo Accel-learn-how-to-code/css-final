@@ -1,0 +1,37 @@
+.home-button {
+    margin: 27px 0 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 3.5px 10.5px 0;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.primary {
+    border: 2px solid #007ced;
+}
+
+.primary:hover {
+    background-color: #007ced;
+    transition-duration: 0.3s;
+}
+
+.secondary {
+    border: 2px solid #ffffff;
+}
+
+.secondary:hover {
+    background-color: #ffffff;
+    transition-duration: 0.3s;
+    color: #838383;
+}
+
+.price-home-button {
+    padding: 10px 0 20px;
+}

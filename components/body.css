@@ -1,0 +1,19 @@
+* {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./image/bg.png);
+}
+
+.container {
+    background-color: #222222;
+    padding: 52px 40px 60px;
+    margin: 3% auto;
+    max-width: 1240px;
+    border-radius: 40px;
+    -webkit-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px -1px 72px 0px rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,29 @@
+.col-do-container {
+    display: flex;
+    background-color: #222222;
+    color: white;
+}
+
+.col-do-list {
+    padding: 0 15px;
+}
+
+.block-do-list {
+    display: flex;
+    padding: 0 10px 30px 0;
+}
+
+.do-text {
+    padding: 0 0 0 15px;
+}
+
+.do-text h4 {
+    margin: 0 0 7px;
+    font-size: 18px;
+}
+
+.do-text p {
+    margin: 0;
+    font-size: .92em;
+    color: #838383;
+}

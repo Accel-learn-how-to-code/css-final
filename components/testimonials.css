@@ -1,0 +1,40 @@
+.testimonials-containers {
+    display: flex;
+}
+
+.testimonials-holder {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.testimonials-content {
+    padding: 30px 20px 20px 60px;
+    background-color: #282828;
+    border-radius: 8px;
+    border: 2px solid #444;
+}
+
+.testimonials-content p {
+    margin: 0 0 10px;
+    color: #d5d5d5;
+}
+
+.author {
+    margin: 0 0 2px;
+    color: #e5e5e5;
+}
+
+.firm {
+    margin: 0;
+    color: #bbbbbb;
+}
+
+.testimonials-avatar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+}
